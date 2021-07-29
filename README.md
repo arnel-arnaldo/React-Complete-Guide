@@ -21,5 +21,13 @@
    - create a component called ExpenseItem.js
    - call the component from App.js with `<ExpenseItem></ExpenseItem>`
 9. Writing More Complex JSX Code
+   - There must only be ONE root element per return statement
 10. Adding Basic CSS Styling
-11.
+    - Create a CSS file called ExpenseItem.css under components folder
+    - Apply the classes (using **className**) in ExpenseItem CSS file to ExpenseItem.js
+11. Outputting Dynamic Data and Working with Expressions in JSX
+12. Passing Data via "props"
+13. Adding "normal" JavaScript Logic to Components
+14. Splitting Components into Multiple Components
+15. Time to Practice: React and Component Basics
+16. The Concept of "Composition" ("children props")
