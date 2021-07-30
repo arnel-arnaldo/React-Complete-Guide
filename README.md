@@ -33,5 +33,7 @@
 13. Adding "normal" JavaScript Logic to Components
     - use [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString) and [getFullYear()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear) functions to date to display month, day and year.
 14. Splitting Components into Multiple Components
+    - create another custom component (ExpenseDate.js) that will render the expense calendar date; this will be called from ExpenseItem.js
 15. Time to Practice: React and Component Basics
+    - create another custom component (Expenses.js) that will render all expenses items; this will be called from App.js as `<Expenses items={expenses} />`. The component (Expenses.css) to style it will also be created.
 16. The Concept of "Composition" ("children props")
