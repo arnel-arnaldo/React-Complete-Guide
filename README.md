@@ -37,3 +37,4 @@
 15. Time to Practice: React and Component Basics
     - create another custom component (Expenses.js) that will render all expenses items; this will be called from App.js as `<Expenses items={expenses} />`. The component (Expenses.css) to style it will also be created.
 16. The Concept of "Composition" ("children props")
+    - introduction to React powerful **composition** model. Here's link from ReactJS documentation that recommends using composition instead of inheritance [(Composition vs Inheritance)](https://reactjs.org/docs/composition-vs-inheritance.html) to reuse code between components.
