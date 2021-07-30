@@ -37,4 +37,11 @@
 15. Time to Practice: React and Component Basics
     - create another custom component (Expenses.js) that will render all expenses items; this will be called from App.js as `<Expenses items={expenses} />`. The component (Expenses.css) to style it will also be created.
 16. The Concept of "Composition" ("children props")
-    - introduction to React powerful **composition** model. Here's link from ReactJS documentation that recommends using composition instead of inheritance [(Composition vs Inheritance)](https://reactjs.org/docs/composition-vs-inheritance.html) to reuse code between components.
+    - introduction to React powerful **composition** model. Here is a link from ReactJS documentation that recommends using composition instead of inheritance [(Composition vs Inheritance)](https://reactjs.org/docs/composition-vs-inheritance.html) to reuse code between components.
+17. A First Summary
+18. A closer Look at JSX
+19. Organizing Component Files
+    - create two folders: Expenses and UI.
+    - Expenses folder will contain all components related to Expenses while UI folder will contain all components that renders the display, i.e. Card.
+20. An Alternative Function Syntax
+    - use the arrow function (`const <function_name> = () => {}`) to write functions.
