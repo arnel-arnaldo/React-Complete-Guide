@@ -26,8 +26,12 @@
     - Create a CSS file called ExpenseItem.css under components folder
     - Apply the classes (using **className**) in ExpenseItem CSS file to ExpenseItem.js
 11. Outputting Dynamic Data and Working with Expressions in JSX
+    - use variables to store data; use `{_variable-name_}` in JSX expression
 12. Passing Data via "props"
+    - 'props' is short for properties
+    - create expenses array in App.js; to be passed as props to ExpenseItem.js
 13. Adding "normal" JavaScript Logic to Components
+    - use [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString) and [getFullYear()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear) functions to date to display month, day and year.
 14. Splitting Components into Multiple Components
 15. Time to Practice: React and Component Basics
 16. The Concept of "Composition" ("children props")
