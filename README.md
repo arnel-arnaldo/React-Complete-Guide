@@ -43,3 +43,5 @@
 15. Time to Practice: Working with Events and State
     - use the lessons learned on this Section to add a component that lets user pick a year and filters the expenses using that year.
 16. Controlled Versus Uncontrolled Components and Stateless Versus Stateful Components
+    - controlled components are usually components we create ourselves that uses props to pass data between parents and children components.
+    - stateless components are components that does not define any state ('dumb component') whereas stateful components have states defined.
