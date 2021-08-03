@@ -41,4 +41,5 @@
     - data can be transmitted from child to parent component by utilizing props to receive a function from the parent component which is called from the child component. This concept is similar to "Lifting the State Up"
 14. Lifting the State Up
 15. Time to Practice: Working with Events and State
+    - use the lessons learned on this Section to add a component that lets user pick a year and filters the expenses using that year. It will also display the graphical representation of the months of the year based on the year selected.
 16. Controlled Versus Uncontrolled Components and Stateless Versus Stateful Components
