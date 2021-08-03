@@ -34,9 +34,11 @@
     - use `onSubmit={}` to get the input values when the form is submitted.
     - include `e.preventDefault()` on the submit form handler to prevent the form from reloading when the form is submitted.
     - store the entered values as:
-      `const expenseData = { title: enteredTitle, amount: enteredAmount, date: new Date(enteredDate), }`
-12. Adding Two-Way Binding
+      `const expenseData = { title: enteredTitle, amount: enteredAmount, date: new Date(enteredDate), }`.
+12. Adding Two-Way Bindin
+    - Two-way binding simply means we don't just listen to inputs but we also pass values to inputs; this is achieved by adding a `value={...}` argument to input controls.
 13. Child-to-Parent Component Communication
+    - data can be transmitted from child to parent component by utilizing props to receive a function from the parent component which is called from the child component. This concept is similar to "Lifting the State Up"
 14. Lifting the State Up
 15. Time to Practice: Working with Events and State
 16. Controlled Versus Uncontrolled Components and Stateless Versus Stateful Components
