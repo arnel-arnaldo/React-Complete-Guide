@@ -20,6 +20,7 @@
    - and this: `if (filteredExpenses.length > 0) { expensesContent = filteredExpenses.map((expense) => ( <ExpenseItem key={expense.id} title={expense.title} amount={expense.amount} date={expense.date} /> )) }`
 7. Adding Conditional Return Statements
 8. Time to Practice #2: Conditional Content
+   - add a conditional content by initially hiding the new expense form and displaying instead a button that says "_Add New Expense_". When this button is clicked, the new expense form is displayed with buttons "_Cancel_" and "_Add Expense_" included.
 9. Demo App: Adding a Chart
 10. Adding Dynamic Styles
 11. Wrap Up and Next Steps
