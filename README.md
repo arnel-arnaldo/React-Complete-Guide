@@ -22,5 +22,8 @@
 8. Time to Practice #2: Conditional Content
    - add a conditional content by initially hiding the new expense form and displaying instead a button that says "_Add New Expense_". When this button is clicked, the new expense form is displayed with buttons "_Cancel_" and "_Add Expense_" included.
 9. Demo App: Adding a Chart
+   - add a **Chart** folder that will contain all JS and CSS components pertaining to the chart.
 10. Adding Dynamic Styles
+    - use the `style={{ height: barFillHeight }}` where barFillHeight is dynamically computed based on the props value and maxValue passed as props.
 11. Wrap Up and Next Steps
+    - add another file, **ExpensesChart.js**, that will contain and compute values for chart data points; this will call **Chart.js**.
