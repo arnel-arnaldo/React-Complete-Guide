@@ -1,21 +1,21 @@
 # React - The Complete Guide
 
-## Section 7: Debugging React Apps
+## Section 8: Time to Practice: a Complete Practice Project
 
 1. Module Introduction
-   - this is a section about finding & fixing errors
-   - the example files (from Section 6) are slighly altered so there will be errors when run.
-   - delete the src folder from Section 6.
+   - this is section that will apply all the concepts learned from past sections; new concepts will be introduced as well.
+   - the app is about adding username and age to a list.
+   - delete the src folder from Section 7.
    - delete the package.json and package-lock.json.
-   - copy the new src folder from Section 7 (master).
-   - copy the new package.json from Section 7 (master).
+   - copy the new src folder from Section 8 (master).
+   - copy the new package.json from Section 8 (master).
    - run npm install to recreate dependencies (node_modules) folder.
-2. Understanding React Error Messages
-   - a message can imply the error be of the two types: **typo or syntax error**.
-3. Analyzing Code Flow and Warnings
-   - there's another error that doesn't display messages but output is wrong: **logic error**
-   - you can use your browser **Dev Tools (F12)** to see if there's any warning that might implicitly be related to the logic error.
-4. Working with Breakpoints
-   - on your <ins>Dev Tools > Sources</ins>, locate the file you want to debug. Then you can click on the line number where you wish to have the breakpoint. The execution will pause on the breakpoint and then you can execute each line step-by-step from there. From there, you can check the values of variable.
-5. Using the React DevTools
-   - add the **React Developer Tools** to your browser.
+2. Adding a "User" Component
+3. Adding a Reusable "Card" Component
+4. Adding a Reusable "Button" Component
+5. Managing the User Input State
+6. Adding Validation and Resetting Logic
+7. Adding an Users List Component
+8. Managing a List of Users via State
+9. Adding the "ErrorModal" Component
+10. Managing the Error State
