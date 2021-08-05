@@ -10,7 +10,7 @@
    - use inline Styles within a form element with a format like this: `style={{ color: !isValid ? 'red' : 'black' }}`
    - not an effective way of dynamically changing styles; there is an better alternative
 3. Setting CSS Classes Dynamically
-   - a better alternative is adding CSS classes which can be dynamically appended to the `<div classname="_CSSClassName_">` using a **Template Literal**, e.g. ` <div className={`form-control ${!isValid ? 'invalid' : ''}`}> `
+   - a better alternative is adding CSS classes which can be dynamically appended to the `<div classname="_CSSClassName_">` using a **Template Literal**, e.g. ` <div className={```form-control ${!isValid ? 'invalid' : ''}```}> `
 4. Introducing Styled Components
 5. Styled Components and Dynamic Props
 6. Styled Components and Media Queries
