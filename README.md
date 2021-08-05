@@ -12,7 +12,10 @@
 3. Setting CSS Classes Dynamically
    - a better alternative is adding CSS classes which can be dynamically appended to the `<div classname="_CSSClassName_">` using a **Template Literal**, e.g. `` <div className={`form-control ${!isValid ? 'invalid' : ''}`}> ``
 4. Introducing Styled Components
+   - need to install styled components, $`npm install --save styled-component`
 5. Styled Components and Dynamic Props
 6. Styled Components and Media Queries
 7. Using CSS Modules
+   - need to add **.module** to the name of the CSS file to make it a CSS module
+   - import the CSS module, e.g. `import styles from './Button.module.css'`
 8. Dynamic Styles with CSS Modules
