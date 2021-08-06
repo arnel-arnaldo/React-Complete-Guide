@@ -4,14 +4,27 @@
 
 1. Module Introduction
    - this is section that will apply all the concepts learned from past sections; new concepts will be introduced as well.
-   - the app is about adding username and age to a list.
+   - the app is about adding username and age to a list (open doc folder for images).
    - delete the src folder from Section 7.
    - delete the package.json and package-lock.json.
    - copy the new src folder from Section 8 (master).
    - copy the new package.json from Section 8 (master).
    - run npm install to recreate dependencies (node_modules) folder.
 2. Adding a "User" Component
+   - map out components that are required:
+     - username / age entry form
+     - button to Add User (UI component)
+     - card to display list of added users
+     - modal form that displays invalid input
+     - OK button
+   - create **Components** folder that will contain the following subfolders:
+     - **UI**
+     - **Users** (contains user related components)
+       - **AddUser.js** - put the codes for adding user logic; return `<Card>...</Card>`
 3. Adding a Reusable "Card" Component
+   - under UI folder, create **Card.js** and **Card.module.css**.
+   - in Card.js, use the `<div ...>{props.children}</div>` to render all the child components (`<Form>...</Form>`) returned by AddUser.js.
+   - under Users folder, add **AddUser.module.css**.
 4. Adding a Reusable "Button" Component
 5. Managing the User Input State
 6. Adding Validation and Resetting Logic
