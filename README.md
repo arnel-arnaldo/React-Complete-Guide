@@ -63,4 +63,7 @@
    ```
 
 9. Adding the "ErrorModal" Component
+   - add **ErrorModal.js** and **ErrorModal.module.css** component under UI folder.
+   - inside ErrorModal.js reuse the UI components `<Card>...<Card/>` and `<Button><Button/>` including the classes from CSS to enhance the display.
+   - the ErrorModal component will be rendered in AddUser.js.
 10. Managing the Error State
