@@ -31,18 +31,19 @@
 5. Managing the User Input State
    - in AddUser.js, create two `const [ ... ] = useState('')` for changing value states of username and age.
 6. Adding Validation and Resetting Logic
+
    - add `setEnteredUsername('')` and `setEnteredAge('')`; add `value={setEntered...}` to the input elements; this will reset username/age to null.
-   - ```
+   - The validation is done using this:
+
+   ```
      if (enteredUsername.trim().length === 0 || enteredAge.trim().length === 0) {
         return
       }
       if (+enteredAge < 1) {
         return
       }
-     ```
    ```
 
-   ```
 7. Adding an Users List Component
 8. Managing a List of Users via State
 9. Adding the "ErrorModal" Component
