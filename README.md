@@ -44,7 +44,23 @@
       }
    ```
 
-7. Adding an Users List Component
+7. Adding a Users List Component
+   - add **UsersList.js** and **UsersList.module.css** component under Users folder.
+   - call UsersList component from App, i.e. `<UsersList users={[]} />`; notice it passes an empty array here so as to avoid the error message.
 8. Managing a List of Users via State
+
+   - to manage list of users in App.js, use `const [usersList, setUsersList] = useState([])` and add this to add user handler:
+
+   ```
+   const addUserHandler = (uName, uAge) => {
+    setUsersList((prevUsersList) => {
+      return [
+        ...prevUsersList,
+        { name: uName, age: uAge, id: Math.random().toString() },
+      ]
+    })
+   }
+   ```
+
 9. Adding the "ErrorModal" Component
 10. Managing the Error State
