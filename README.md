@@ -26,8 +26,23 @@
    - in Card.js, use the `<div ...>{props.children}</div>` to render all the child components (`<Form>...</Form>`) returned by AddUser.js.
    - under Users folder, add **AddUser.module.css**.
 4. Adding a Reusable "Button" Component
+   - under UI folder, create **Button.js** and **Button.module.css**.
+   - in Button.js, use the `<button ...>{props.children}</button>` to render all the child components (`<Button>...</Button>`) returned by AddUser.js.
 5. Managing the User Input State
+   - in AddUser.js, create two `const [ ... ] = useState('')` for changing value states of username and age.
 6. Adding Validation and Resetting Logic
+   - add `setEnteredUsername('')` and `setEnteredAge('')`; add `value={setEntered...}` to the input elements; this will reset username/age to null.
+   - ```
+     if (enteredUsername.trim().length === 0 || enteredAge.trim().length === 0) {
+        return
+      }
+      if (+enteredAge < 1) {
+        return
+      }
+     ```
+   ```
+
+   ```
 7. Adding an Users List Component
 8. Managing a List of Users via State
 9. Adding the "ErrorModal" Component
