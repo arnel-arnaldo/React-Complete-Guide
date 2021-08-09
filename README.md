@@ -16,7 +16,57 @@
    ```
    - the wrapper component is a solution to the problem (i.e. `<div>` Soup) of single root JSX requirement.
 4. React Fragments
+   - another workaround to JSX limitations is to use **React Fragments**. This can be implemented by using `<React.Fragment>...</React.Fragment>` or `<>...</>`.
 5. Introducing React Portals
+   - helps write cleaner codes.
 6. Working with Portals
+   - portal needs two things:
+     - place you want to portal the component to
+     - let the component know that it should have a portal to that place
+   - <ins>public/index.html</ins> is the place to mark where the portal is, e.g.
+     ```
+     <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="backdrop-root"></div>
+        <div id="overlay-root"></div>
+        <div id="root"></div>
+        ...
+     </body>
+     ```
+   - create two functions to portal:
+     ```
+     const Backdrop = (props) => {
+        return <div className={classes.backdrop} onClick={props.onConfirm}></div>
+     }
+     ```
+     and
+     ```
+     const ModalOverlay = (props) => {
+        return (
+           ...
+        )
+     }
+     ```
+   - `import ReactDOM from 'react-dom'` and use `ReactDOM.createPortal` to portal the two functions:
+     ```
+     const ErrorModal = (props) => {
+        return (
+           <React.Fragment>
+              {ReactDOM.createPortal(
+                 <Backdrop onConfirm={props.onConfirm} />,
+                 document.getElementById('backdrop-root')
+              )}
+              {ReactDOM.createPortal(
+                 <ModalOverlay
+                    title={props.title}
+                    message={props.message}
+                    onConfirm={props.onConfirm}
+                 />,
+                 document.getElementById('overlay-root')
+              )}
+           </React.Fragment>
+        )
+     }
+     ```
 7. Working with "refs"
 8. Controlled Versus Uncontrolled Components
