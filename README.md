@@ -69,4 +69,23 @@
      }
      ```
 7. Working with "refs"
+
+   - "refs" is short for references
+   - **useRef()** are sometimes used instead of useState() during cases wherein we just want to check (and not change) the status of user inputs.
+   - import `{useRef}` from react in AddUser.js; use useRef() instead of useState():
+     - ```
+        const AddUser = (props) => {
+           const nameInputRef = useRef()
+           const ageInputRef = useRef()
+           ...
+        }
+       ```
+       and use `ref=...` to connect the DOM element to the refs:
+       ```
+       <label htmlFor='username'>Username</label>
+       <input id='username' type='text' ref={nameInputRef} />
+       <label htmlFor='age'>Age (Years)</label>
+       <input id='age' type='number' ref={ageInputRef} />
+       ```
+
 8. Controlled Versus Uncontrolled Components
