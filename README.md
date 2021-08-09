@@ -67,3 +67,4 @@
    - inside ErrorModal.js reuse the UI components `<Card>...<Card/>` and `<Button><Button/>` including the classes from CSS to enhance the display.
    - the ErrorModal component will be rendered in AddUser.js.
 10. Managing the Error State
+    - add another useState() in AddUser.js, i.e. `const [error, setError] = useState()`
