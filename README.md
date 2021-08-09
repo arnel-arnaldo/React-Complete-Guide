@@ -80,7 +80,7 @@
            ...
         }
        ```
-       and use `ref=...` to connect the DOM element to the refs:
+       and use `ref=...` to connect the DOM input elements to the refs:
        ```
        <label htmlFor='username'>Username</label>
        <input id='username' type='text' ref={nameInputRef} />
@@ -89,3 +89,4 @@
        ```
 
 8. Controlled Versus Uncontrolled Components
+   - the use of useRef() makes a component 'uncontrolled'
