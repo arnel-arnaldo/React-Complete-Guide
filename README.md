@@ -10,7 +10,6 @@
 6. useEffect() Summary
 7. Introducing useReducer() and Reducers in General
 8. Using the useReducer() Hook
-   -
 9. useReducer() and useEffect()
 10. useReducer() Versus useState() for State Management
 11. Introducing React Context
