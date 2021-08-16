@@ -1,23 +1,22 @@
 # React - The Complete Guide
 
-## Section 10: Advanced: Handling Side Effects, Using Reducers, and Using the Context API
+## Section 11: Practice Project: Building a Food Order App
 
 1. Module Introduction
-2. What are "Side Effects" and Introducing useEffect()
-3. Using the useEffect() Hook
-4. useEffect() and Dependencies
-5. Using the useEffect() Cleanup Function
-6. useEffect() Summary
-7. Introducing useReducer() and Reducers in General
-8. Using the useReducer() Hook
-9. useReducer() and useEffect()
-10. useReducer() Versus useState() for State Management
-11. Introducing React Context
-12. Using the React Context API
-13. Tapping into Context with the useContext() Hook
-14. Making Context Dynamic
-15. Building and Using a Custom Context Provider Component
-16. React Context Limitations
-17. Learning the "Rules of Hooks"
-18. Refactoring an Input Component
-19. Diving into "Forward Refs"
+2. Starting Setup
+3. Adding a "Header" Component
+4. Adding the "Cart" Button Component
+5. Adding a "Meals" Component
+6. Adding Individual Meal Items and Displaying Them
+7. Adding a Form
+8. Working on the "Shopping Cart" Component
+9. Adding a Modal via a React Portal
+10. Managing Cart and Modal State
+11. Adding a Cart Context
+12. Using the Context
+13. Adding a Cart Reducer
+14. Working with Refs and Forward Refs
+15. Outputting Cart Items
+16. Working on a More Complex Reducer Logic
+17. Making Items Removable
+18. Using the useEffect() Hook
