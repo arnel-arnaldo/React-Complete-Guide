@@ -1,5 +1,6 @@
 {
-  "name": "react-complete-guide",
+  "name": "React Meals",
+  "homepage": "https://www.arnold-hayes.com/reactmeals",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
